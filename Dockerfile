@@ -1,4 +1,4 @@
-FROM dads2busy/c7
+FROM sdal/c7
 MAINTAINER "Aaron D. Schroeder" <aschroed@vt.edu>
 
 LABEL name="CentOS Base Image" \
