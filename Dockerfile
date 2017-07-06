@@ -19,6 +19,7 @@ RUN \
   yum install -y initscripts && \
   yum install -y openssh openssh-server openssh-clients openssl-libs && \
   yum install -y sssd && \
+  yum install -y emacs nano htop && \
   yum install -y authconfig; yum clean all
 
 # Fix locale
